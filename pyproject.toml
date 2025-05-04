@@ -1,0 +1,4 @@
+[project]
+name = "FF14-Gil-finder"
+version = "0.1"
+dependenciesa = ["pyglet"]
