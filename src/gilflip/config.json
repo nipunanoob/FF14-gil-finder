@@ -1,0 +1,14 @@
+{
+    "preferred_roi": 30,
+    "min_profit_amount": 10000,
+    "min_desired_avg_ppu": 10000,
+    "min_stack_size": 1,
+    "hours_ago": 48,
+    "min_sales": 2,
+    "hq": false,
+    "home_server": "Spriggan",
+    "region_wide": false,
+    "include_vendor": true,
+    "show_out_stock": true,
+    "filters": [7]
+}
