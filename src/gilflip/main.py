@@ -65,6 +65,7 @@ def main():
                 "include_vendor": resolve_arg("include_vendor", args.v, config, DEFAULTS["include_vendor"]),
                 "show_out_stock": resolve_arg("show_out_stock", args.out_of_stock, config, DEFAULTS["show_out_stock"]),
             }
+            print(find_flippable_item(payload))
         except SystemExit:
             print("Invalid arguments! Use -h or --help to see available options")
             sys.exit(1)
