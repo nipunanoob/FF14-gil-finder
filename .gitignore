@@ -2,3 +2,4 @@ thoughts.txt
 test/
 fetch_*
 .venv
+__pycache__
