@@ -52,6 +52,7 @@ Modern Aesthetics - Ambitious Ends              80    727525        415         
 
 ### CLI Options
 
+```
 Flag    Description
 --roi	        Minimum preferred ROI %
 --mprof	        Minimum profit amount in gil
@@ -64,6 +65,7 @@ Flag    Description
 -d	            Include region-wide listings
 -v	            Include vendor-sold items
 --out-of-stock	Include items currently out of stock
+```
 
 ### Automation
 
