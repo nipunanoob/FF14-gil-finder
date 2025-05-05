@@ -3,9 +3,10 @@ import os
 import sys
 import json
 from scanner import find_flippable_item
+from table import display_table
 
-# CONFIG_PATH = os.path.expanduser("~/.gilflippa/config.json")
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
+CONFIG_PATH = os.path.expanduser("~/.gilflippa/config.json")
+# CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
 
 def load_config():
     if os.path.exists(CONFIG_PATH):
@@ -65,7 +66,9 @@ def main():
                 "include_vendor": resolve_arg("include_vendor", args.v, config, DEFAULTS["include_vendor"]),
                 "show_out_stock": resolve_arg("show_out_stock", args.out_of_stock, config, DEFAULTS["show_out_stock"]),
             }
-            print(find_flippable_item(payload))
+            data = find_flippable_item(payload)
+            display_table(data)
+            
         except SystemExit:
             print("Invalid arguments! Use -h or --help to see available options")
             sys.exit(1)
