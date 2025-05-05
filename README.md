@@ -31,7 +31,8 @@ cd ff14-gil-finder
 
 ```python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 3. Configure default values in src/gilflip/config.json. (Optional)
 
