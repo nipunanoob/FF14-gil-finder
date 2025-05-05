@@ -5,8 +5,8 @@ import json
 from scanner import find_flippable_item
 from table import display_table
 
-# CONFIG_PATH = os.path.expanduser("~/.gilflippa/config.json")
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
+CONFIG_PATH = os.path.expanduser("~/.gilflippa/config.json")
+# CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
 
 def load_config():
     if os.path.exists(CONFIG_PATH):

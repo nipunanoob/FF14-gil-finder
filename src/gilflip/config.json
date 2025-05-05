@@ -1,6 +1,6 @@
 {
     "preferred_roi": 30,
-    "min_profit_amount": 10000,
+    "min_profit_amount": 20000,
     "min_desired_avg_ppu": 10000,
     "min_stack_size": 1,
     "hours_ago": 48,
